@@ -1,1 +1,4 @@
-export const state={employees:[],selectedEmployee:null};
+export const state = {
+    employees: [],
+    selectedEmployee: null
+};
