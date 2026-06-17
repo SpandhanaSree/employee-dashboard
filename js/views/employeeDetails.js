@@ -7,7 +7,7 @@ export default function(id) {
         return "<h2>Employee not found</h2>";
     }
 
-    return 
+    return `
         <div class="card">
             <h2>${emp.name}</h2>
             <p><strong>Email:</strong> ${emp.email}</p>
@@ -15,5 +15,5 @@ export default function(id) {
             <p><strong>Company:</strong> ${emp.company.name}</p>
             <p><strong>Website:</strong> ${emp.website}</p>
         </div>
-    ;
+    `;
 }

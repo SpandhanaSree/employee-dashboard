@@ -1,5 +1,5 @@
 export function employeeCard(emp) {
-  return 
+  return `
     <div class="card">
       <h3>${emp.name}</h3>
       <p>${emp.email}</p>
@@ -7,5 +7,5 @@ export function employeeCard(emp) {
         Details
       </button>
     </div>
-  ;
+  `;
 }
