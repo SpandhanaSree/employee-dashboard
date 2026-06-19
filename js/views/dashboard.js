@@ -4,15 +4,15 @@ export default function () {
 
   const totalEmployees = state.employees.length;
 
-  // Example: assume all employees are active
+  // assume all employees are active
   const activeEmployees = state.employees.length;
 
-  // Example: use number of companies as departments
+  //  use number of companies as departments
   const departments = new Set(
     state.employees.map(emp => emp.company.name)
   ).size;
 
-  // Example: assume first 3 employees are new joinees
+  // assume first 3 employees are new joinees
   const newJoinees = 3;
 
   return `

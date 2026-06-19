@@ -1,8 +1,14 @@
-body{font-family:Arial,sans-serif;margin:0;background:#97939374}
-#app{padding:20px}
-button{padding:8px 12px;cursor:pointer}
+body{font-family:Arial,sans-serif;
+    margin:0;
+    background:#f5f7fa
+}
+
+#app{
+    padding:20px
+}
+
 nav{
-    background:#0a3a6a;
+    background:#1780e9;
     padding:15px;
 }
 
@@ -41,16 +47,21 @@ nav a{
 }
 
 button{
-    background:#3498db;
+    background:#1b8edbc3;
     color:white;
     border:none;
-    border-radius:5px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-button:hover{
-    opacity:0.9;
+button:hover {
+    background-color: #2f9ae0ed;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.486);
 }
 
 nav a:hover {
   text-decoration: underline;
-}
+} 

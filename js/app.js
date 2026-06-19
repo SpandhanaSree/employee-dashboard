@@ -12,9 +12,6 @@ state.employees = await fetchEmployees();
 // Render the initial page
 await router();
 
-
-
-
 document.addEventListener("input", (e) => {
 
     if (e.target.id === "searchInput") {
